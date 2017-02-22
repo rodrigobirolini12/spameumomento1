@@ -1,0 +1,115 @@
+
+    .gpmCaixaLegenda {
+        font-family: 'Arial Narrow', 'Arial', sans-serif;
+        font-size: 10pt;
+        background-color: #FFF;
+        margin: 10px;
+        padding: 5px;
+        border: thin black solid;
+        box-shadow: -3px 3px 8px #888;
+        line-height: 1.25;
+    }
+    .gpmCaixaCor {
+        height: 12px;
+        width: 12px;
+        margin-right: 3px;
+        float: left;
+        display: block;
+        border: thin black solid;
+        margin-top: 4px;
+    }
+    .gpmCaixaLegenda p {
+        /* font-weight: bold; */
+        
+        text-transform: uppercase;
+        margin-top: 3px;
+    }
+    .spanLegenda {
+        margin-right: 2px;
+    }
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+    #map1 {
+        height: 100%;
+        width: 100%;
+    }
+    .panel-primary {
+        background-color: 1D9D74;
+        color: white;
+        font-size: 16px;
+    }
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 16px;
+        height: 16px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    #loaddiv {
+        BORDER-RIGHT: #785e4f 4px groove;
+        PADDING-RIGHT: 20px;
+        BORDER-TOP: #785e4f 4px groove;
+        PADDING-LEFT: 20px;
+        FONT-WEIGHT: bold;
+        Z-INDEX: 100;
+        FILTER: alpha(opacity=75);
+        LEFT: 260px;
+        PADDING-BOTTOM: 20px;
+        MARGIN-LEFT: auto;
+        BORDER-LEFT: #785e4f 4px groove;
+        WIDTH: 250px;
+        MARGIN-RIGHT: auto;
+        PADDING-TOP: 20px;
+        BORDER-BOTTOM: #785e4f 4px groove;
+        POSITION: absolute;
+        TOP: 308px;
+        BACKGROUND-COLOR: #FFFFFF;
+        /* BACKGROUND-COLOR: #e7b047; */
+        
+        TEXT-ALIGN: center;
+        opacity: .75
+    }
+    .infowindow * {
+        font-size: 50%;
+        margin: 0
+    }
+    #iw-container .iw-title {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 10px;
+        background-color: #48b5e9;
+        color: white;
+        margin: 1px;
+        border-radius: 2px 2px 0 0;
+        /* De acordo com o arredondamento dos cantos da infowindow por padrão. */
+    }
+    h3 {
+        color: #1D9D74 !important;
+        font-size: 18px !important;
+    }
+    .gm-style .gm-style-iw {
+        font-weight: 300;
+        font-size: 18px !important;
+        overflow: hidden;
+    }
